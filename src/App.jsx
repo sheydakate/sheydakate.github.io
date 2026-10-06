@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import About from './About.jsx'
 import Projects from './Projects.jsx'
+import ParticleName from './ParticleName.jsx'
 import './App.css'
 import pic from './assets/pic.jpg'
 
@@ -52,16 +53,19 @@ function App() {
             path="/"
             element={
               <section id="center">
+                <ParticleName />
               
+                {/*
                 <img 
                   className="photo"
                   src={pic} 
                   alt="Portrate of Sheyda Kate" 
                 />
+                */}
 
                 <div>
-                  <h1>Sheyda Kate</h1>
-                  <p>CS major | UCF</p>
+                  {/*<h1>Sheyda Kate</h1> 
+                  <p>CS major | UCF</p> */}
                 </div>
               </section>
             }
