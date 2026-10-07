@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display&family=Outfit:wght@400;600&family=Playfair+Display:wght@600&family=Space+Grotesk:wght@400;600&family=Syne:wght@600;700&display=swap');
+body {
+  fontFamily: "'Playfair Display', serif",
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -105,4 +110,8 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+html {
+  scroll-behavior: smooth;
 }
